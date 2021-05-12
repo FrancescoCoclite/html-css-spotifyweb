@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
+.head{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    padding-left: 60px;
+}
+footer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+}
+.bottone{
+    margin-left: 200px;
+}
+#logo{
+    color: black;
+}
+li img{
+    height: 20px;
+    vertical-align: middle;
+}
