@@ -1,0 +1,111 @@
+@media screen and (min-width: 660px) {
+      /* 12 System */
+    .col-mb {
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+    .col-mb-1 {
+        flex-basis: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
+    }
+    .col-mb-2 {
+        flex-basis: calc((100% / 12) * 2);
+        max-width: calc((100% / 12) * 2);
+    }
+    .col-mb-3 {
+        flex-basis: calc((100% / 12) * 3);
+        max-width: calc((100% / 12) * 3);
+    }
+    .col-mb-4 {
+        flex-basis: calc((100% / 12) * 4);
+        max-width: calc((100% / 12) * 4);
+    }
+    .col-mb-5 {
+        flex-basis: calc((100% / 12) * 5);
+        max-width: calc((100% / 12) * 5);
+    }
+    .col-mb-6 {
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
+    }
+    .col-mb-7 {
+        flex-basis: calc((100% / 12) * 7);
+        max-width: calc((100% / 12) * 7);
+    }
+    .col-mb-8 {
+        flex-basis: calc((100% / 12) * 8);
+        max-width: calc((100% / 12) * 8);
+    }
+    .col-mb-9 {
+        flex-basis: calc((100% / 12) * 9);
+        max-width: calc((100% / 12) * 9);
+    }
+    .col-mb-10 {
+        flex-basis: calc((100% / 12) * 10);
+        max-width: calc((100% / 12) * 10);
+    }
+    .col-mb-11 {
+        flex-basis: calc((100% / 12) * 11);
+        max-width: calc((100% / 12) * 11);
+    }
+    .col-mb-12 {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
+    }
+    .col-mb-offset-1 {
+        margin-left: calc((100% / 12) * 1);
+    }
+    .col-mb-offset-2 {
+        margin-left: calc((100% / 12) * 2);
+    }
+    .col-mb-offset-3 {
+        margin-left: calc((100% / 12) * 3);
+    }
+    .col-mb-offset-4 {
+        margin-left: calc((100% / 12) * 4);
+    }
+    .col-mb-offset-5 {
+        margin-left: calc((100% / 12) * 5);
+    }
+    .col-mb-offset-6 {
+        margin-left: calc((100% / 12) * 6);
+    }
+    .col-mb-offset-7 {
+        margin-left: calc((100% / 12) * 7);
+    }
+    .col-mb-offset-8 {
+        margin-left: calc((100% / 12) * 8);
+    }
+    .col-mb-offset-9 {
+        margin-left: calc((100% / 12) * 9);
+    }
+    .col-mb-offset-10 {
+        margin-left: calc((100% / 12) * 10);
+    }
+    .col-mb-offset-11 {
+        margin-left: calc((100% / 12) * 11);
+    }
+    .end-mb {
+        justify-content: flex-end;
+    }
+    .around-mb {
+        justify-content: space-around;
+    }
+    .between-mb {
+        justify-content: space-between;
+    }
+    
+    .top-mb{
+        align-items: flex-start;
+    }
+    
+    .middle-mb{
+        align-items: center;
+    }
+    
+    .bottom-mb {
+        align-items: flex-end;
+    }
+    
+}
