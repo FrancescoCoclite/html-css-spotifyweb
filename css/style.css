@@ -39,3 +39,14 @@
 .container-img{
   display: flex;  
 }
+.box-img img{
+    max-width: 200px;
+    display: flex;
+}
+.col-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
