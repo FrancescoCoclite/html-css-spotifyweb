@@ -14,9 +14,20 @@ a img{
 }
 li{
     list-style: none;
+    
 }
 a{
     text-decoration: none;
+    color: white;
+}
+h2{
+    color: white;
+}
+li i{
+    font-size: 40px;
+}
+.mid-nav ul li{
+    line-height: 30px;
 }
 
 
@@ -44,7 +55,7 @@ a{
     border-radius: 20px;
     color: white; 
     position: absolute;
-    right: 20px;
+    right: 40px;
     top: 20px;
 }
 .box-categorie{
