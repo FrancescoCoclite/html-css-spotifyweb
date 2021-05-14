@@ -1,5 +1,5 @@
 .sx{
-    background-color: blue;
+    background-color: #000000;
     min-width: 230px;
     height: calc(100vh - 100px);
 }
@@ -29,13 +29,15 @@ li i{
 .mid-nav ul li{
     line-height: 30px;
 }
-
-
-
-
-
-
-
+.mid-nav{
+    height: calc(70% - 50px);
+    overflow-y:auto;
+}
+.bot-nav{
+    line-height: 30px;
+    height: 100px;
+    color: white;
+}
 
 .center{
     background-color: #141922;;
@@ -79,9 +81,23 @@ li i{
   display: flex;  
 }
 .box-img{
+    position: relative;
     max-width: 200px;
     display: flex;
     padding: 10px;
+}
+.cover-layover{
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    display: none;
+}
+.box-img:hover .cover-layover{
+    display: flex;
 }
 .box-img img{
     width: 100%;
@@ -107,4 +123,19 @@ li i{
     background-color: gray;
     z-index: 2;
     position: fixed;
+}
+.foot-img{
+    display: flex;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.foot-img img{
+    width: 100%;
+}
+.titoli-brani{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    min-width: 200px;
 }
