@@ -120,7 +120,7 @@ li i{
 .foot{
     height: 100px;
     width: 100%;
-    background-color: gray;
+    background-color: #282828;
     z-index: 2;
     position: fixed;
 }
@@ -137,5 +137,18 @@ li i{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-left: 5px;
     min-width: 200px;
+    font-size: 15px;
+}
+.titoli-brani h3{
+    font-size: 12px;
+    color: gray;
+}
+.icone-foot{
+    display: flex;
+    margin-top: 30px;
+}
+.icone-foot i{
+    margin-right: 10px;
 }
