@@ -135,3 +135,6 @@
 .center-lg{
     justify-content: center;
 }
+.nowrap{
+    flex-wrap: nowrap;
+}

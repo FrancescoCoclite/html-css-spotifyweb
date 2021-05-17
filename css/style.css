@@ -46,12 +46,14 @@ li i{
     width: 100%;
     height: calc(100vh - 100px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .header{
     background-color:rgba(0, 0, 0, 0.6);
     width: calc(100% - 230px);
     height: 80px;
     position: fixed;
+    z-index: 2;
 }
 .bottone{
     border: 1px solid white;
@@ -67,6 +69,7 @@ li i{
 }
 .categorie{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .categorie li{
@@ -123,7 +126,7 @@ li i{
     height: 100px;
     width: 100%;
     background-color: #282828;
-    z-index: 2;
+    z-index: 9;
     position: fixed;
 }
 .foot-img{
