@@ -133,15 +133,17 @@
         color: white;
         margin-left: 10%;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 557px) {
         .sx{
             background-color: #000000;
             min-width: 10px;
             height: calc(100vh - 100px);
         }
-        .sx *{
-            color: black;
-            background: black;
+        .sx>.mid-nav, .sx>.bot-nav{
+            display: none;
+        }
+        .top-nav>h2, .top-nav>ul>li>a>span{
+            display: none;
         }
         .foot-sx{
             display: none;
